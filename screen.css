@@ -9,7 +9,7 @@ nav{
     background-color:white;
     padding: 12px;
     margin: 25px;
-    word-spacing: 25px /* leave at 25px so that nav items are evenly spaced through box */}
+    word-spacing: 25px /* leave at 25px so that nav items are evenly spaced through box so that this works */}
 
 
 
