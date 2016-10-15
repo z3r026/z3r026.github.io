@@ -9,18 +9,20 @@ nav{
     background-color:white;
     padding: 12px;
     margin: 25px;
-    word-spacing: 25px /* leave at 25px so that nav items are evenly spaced through box */}
+    word-spacing: 25px /* leave at 25px so that nav items are evenly spaced through box and so that git works! */}
 
 
 
 h1, h3 {
     color: ghostwhite;
     font-family: serif;}
-h3 {
-    font-size: 24px;
-}
+
 
 h2 {font-size: 16px;}
+
+h3 {
+    font-size: 24px;}
+
 
 
 h4 {color: midnightblue}
