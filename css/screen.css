@@ -9,7 +9,7 @@ nav{
     background-color:white;
     padding: 12px;
     margin: 25px;
-    word-spacing: 25px /* leave at 25px so that nav items are evenly spaced through box and so that git works! */}
+    word-spacing: 12px /* leave at 25px so that nav items are evenly spaced through box and so that git works! */}
 
 
 
@@ -49,7 +49,7 @@ section {
 }
 
 footer {
-    background-color: midnightblue
+    background-color: midnightblue;
     padding: 12px;
     
 }
