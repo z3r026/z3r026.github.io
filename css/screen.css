@@ -1,3 +1,5 @@
+/* MOBILE */
+
 header{ 
     background-color: midnightblue; 
     padding: 12px; 
@@ -15,12 +17,13 @@ nav{
 
 h1, h3 {
     color: ghostwhite;
-    font-family: serif;}
+    font-family: serif;
+    background-color: midnightblue;}
 
 
 h2 {font-size: 16px;}
 
-h3 {
+h3 {background-color:midnightblue
     font-size: 24px;}
 
 
@@ -38,18 +41,51 @@ ul {
     list-style: none;
     padding: 0px;
     color: ghostwhite;
-    background-color: midnightblue}
+    background-color: midnightblue;
+    display: inline-block}
 
 
 section {
     background-color: midnightblue;
     padding: 12px; 
-    margin: 10px;
-    
-}
+    margin: 10px;}
 
 footer {
     background-color: midnightblue;
-    padding: 12px;
+    padding: 12px;}
+
+li {
+    color: ghostwhite;
+    
+}
+
+
+@media screen and (min-width:120px){
+    #hourly-data
+    {display: none}
+    
+    #weather-update
+    {display:none}
+}   
+
+
+/* Tablet */
+
+@media screen and (min-width:768px){
+    #hourly-data 
+    {display:block;}
+    
+    #weather-update
+    {display:none;}
+}
+
+/* Desktop/Laptop */
+
+@media screen and (min-width:1024px){
+    #weather-update
+    {display:block;
+    position:relative; left: 500px; bottom: 250px}
+    
+    
     
 }
