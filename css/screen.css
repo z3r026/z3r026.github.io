@@ -84,7 +84,9 @@ li {
 @media screen and (min-width:1024px){
     #weather-update
     {display:block;
-    position:relative; left: 500px; bottom: 250px}
+    position:relative; left: 500px; bottom: 390px}
+    #wire-frames
+    {display:inline-flex}
     
     
     
