@@ -1,4 +1,4 @@
-html *{
+/* html *{
     box-sizing: border-box;
 }
 
@@ -12,6 +12,8 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
 @media screen and (min-width: 600px){
     #page-header{
                 width: 100%;
@@ -42,4 +44,28 @@ li{
     display: inline;
     
 }
+ */
 
+#wrapper{
+    display: flex;          /*takes everything inside wrapper div (parent container and flexes it)*/ 
+    flex-wrap: wrap;        /*gives each thing its own space*/
+}
+#page-header{
+    text-align: center;
+}
+#row{
+    display: flex;          /* the wrapper is a flex container everything inside is a flex item, but you can make                         a chid a parent */
+}
+#page-nav{
+    width: 20%;
+}
+main{
+    width:50%;
+}
+#page-aside{
+    width:30%;
+}
+#page-nav, main, #page-aside{
+    border:1px solid #000;
+}
+    

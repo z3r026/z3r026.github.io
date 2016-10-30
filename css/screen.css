@@ -1,5 +1,7 @@
 /* MOBILE */
 
+/*
+
 header{ 
     background-color: midnightblue; 
     padding: 12px; 
@@ -11,8 +13,7 @@ nav{
     background-color:white;
     padding: 12px;
     margin: 25px;
-    word-spacing: 12px /* leave at 25px so that nav items are evenly spaced through box and so that git works! */}
-
+    word-spacing: 12px
 
 
 h1, h3 {
@@ -58,36 +59,72 @@ li {
     color: ghostwhite;
     
 }
-
-
-@media screen and (min-width:120px){
-    #hourly-data
-    {display: none}
+*/
     
-    #weather-update
-    {display:none}
-}   
-
-
+    
 /* Tablet */
-
-@media screen and (min-width:768px){
-    #hourly-data 
-    {display:block;}
-    
-    #weather-update
-    {display:none;}
+@media screen and (min-width:320px) {
+    #hourly-data {
+        display: none;
+    }
+    #weather-update {
+        display: none;
+    }
+    main{ 
+    width:auto;}
 }
 
 /* Desktop/Laptop */
+@media screen and (min-width:1024px) {
+    #weather-update {
+        display: block;
+        position: relative;
+        left: 500px;
+        bottom: 390px
+    }
 
-@media screen and (min-width:1024px){
-    #weather-update
-    {display:block;
-    position:relative; left: 500px; bottom: 390px}
-    #wire-frames
-    {display:inline-flex}
     
+#wire-frames {
+    display: inline-flex
+    }   
+    }
+
+
+ul{
+    padding: 0;
+}
+nav, li a{
+    display: inline-flex;
+    list-style: none;
+}
+table, th, td{
+    border: 1px solid navy;
+}
+.hourlytable {
+    display:block;
+    overflow: scroll;
+}
     
+#wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    border: 1px #0000;
+}
+body{
+    background-color: ghostwhite;
+}
+main{ 
+    width: auto;
+}
+header, footer{
+    background-color: lightskyblue;
+}
+.forecast, .hourly-data, .wire-frames{
+    background-color: ghostwhite;
     
+}
+.hourlychart{
+    width:100%;
+    height:auto;
 }
