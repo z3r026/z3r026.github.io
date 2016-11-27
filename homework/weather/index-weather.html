@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Franklin Weather</title>
     <meta name="viewport" content="width=device-width">
-    <link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen"> </head>
+    <link href="/jsonweather-html/css/weather-style.css" href="/css/screen.css" rel="stylesheet" type="text/css" media="screen"> </head>
     
 <body>
     <div id="wrapper">
@@ -22,6 +22,21 @@
     </nav>
     
     <main>
+        
+         <section class="weather-container">
+        <div id="cover">
+          <div id="status">Loading...</div>
+        </div>
+        <h1 id="cityDisplay"></h1>
+        <h2>Current Conditions</h2>
+        <ul id="current_conditions">
+          <li id="currentTemp"></li>
+          <li id="summary"></li>
+          <li id="add1"></li>
+          <li id="add2"></li>
+          <li id="add3"></li>
+        </ul>
+      </section>
     
         
         <figure id="praisethesun"> <img alt="praisethesun" src="/images/praisethesun.png"></figure>
