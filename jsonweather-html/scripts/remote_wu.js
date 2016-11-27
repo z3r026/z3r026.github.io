@@ -28,14 +28,14 @@ $(function () {
         success: function(data) {
         console.log(data);
         
-            var location = data['location']['city'] + ','+ data['location']['state'];
+            var location = data['location']['city'] + ', '+ data['location']['state'];
             var tempF = data['current_observation'] ['temp_f'];
             var windspeed = data['current_observation'] ['wind_mph'];
             var weather = data['current_observation'] ['weather'];
             
             $('#cityDisplay').html(location);
             $('#currentTemp').html(Math.round(tempF)+"&#176;F");
-            $('summary').html(toTitleCase(weather));
+            $('#Summary').html(toTitleCase(weather));
             $('#add1') .html("Wind Speed:" +data['current_observation']['wind_mph']+"mph");
             $('#add2') .html("Precipitation:" +data['current_observation']['precip_today_string'])
         
