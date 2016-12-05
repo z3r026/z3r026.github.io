@@ -1,18 +1,17 @@
-//*javascript for search page
-
 $('#query').keyup(function(){
   // All code will be inside of this block
 }); // end keyup
 
-  var value = $('#query').val();
+    var value = $('#query').val();
 
-var rExp = new RegExp(value, "i");
+    var rExp = new RegExp(value, "i");
 
- $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
-  
-     console.log(data);
-     
-     $('#query').keyup(function() {
+$.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
+  console.log(data);
+  }); // end getJSON
+
+
+$('#query').keyup(function() {
   var value = $('#query').val();
   var rExp = new RegExp(value, "i");
   $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function(data) {
@@ -30,6 +29,3 @@ var rExp = new RegExp(value, "i");
     $("#searchResults").html(output); // send results to the page
   }); // end getJSON
 }); // end onkeyup
-     
-  }); // end getJSON
-
