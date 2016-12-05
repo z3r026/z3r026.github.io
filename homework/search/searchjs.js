@@ -30,25 +30,3 @@ $('#query').keyup(function() {
   }); // end getJSON
 }); // end onkeyup
 
-// Get weather data from wunderground.com
-function getData(input) {
-  // Get the data from the wunderground API
-  $.ajax({
-    url: "http://api.wunderground.com/api/63696bbe36e91f39/geolookup/conditions/q/"
-    + input + ".json"
-    , dataType: "jsonp"
-    , success: function (data) {
-      console.log(data);
-      var location = data.location.city + ', ' + data.location.state;
-      var temp_f = data.current_observation.temp_f;
-      console.log('Location is: ' + location);
-      console.log('Temp is: ' + temp_f);
-      $("#cityDisplay").text(location);
-      $("title").html(location + " | Weather Center");
-      $("#currentTemp").html(Math.round(temp_f) + '°');
-      $("#summary").text(toTitleCase(data.current_observation.icon));
-      $("#cover").fadeOut(250);
-    }
-  });
-}
-
