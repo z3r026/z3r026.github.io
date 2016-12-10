@@ -13,6 +13,11 @@ nav, li, nav-ul{
     flex-direction: row;
     align-content: center;
 }
+#terms-li{
+    display:flex;
+    flex-direction:column;
+    list-style:circle;
+}
 
 
     
