@@ -4,12 +4,14 @@ nav, li, nav-ul{
     font-size: 110%;
     margin: 0;
     display: inline-flex;
+    flex-direction: row;
     padding: 0;
     color: midnightblue;
 }
 #nav-li{
     display:inline-flex;
     flex-direction: row;
+    align-content: center;
 }
 
 
