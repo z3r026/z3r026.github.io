@@ -1,0 +1,50 @@
+
+nav, li, nav-ul{
+    list-style: none;
+    font-size: 110%;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    color: midnightblue;
+}
+#nav-li{
+    display:flex;
+    flex-direction: row;
+}
+
+
+    
+    
+h3, h2{
+    text-align: center;
+    color: midnightblue;
+    
+}
+
+    
+#wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    border: 1px #0000;
+}
+body{
+    background-color: ghostwhite;
+}
+main{ 
+    width: auto;
+}
+header, footer{
+    background-color: lightskyblue;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+    

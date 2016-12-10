@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mov Reviews</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen"> </head>
+
+<body>
+    <header>
+        <h1>Mov Reviews Home Page</h1> </header>
+    <nav>
+        <h2> Top Movies Profile About Us </h2> </nav>
+        <link a href=""> <link a href=""> <link a href="">
+    <main>
+        <header>
+            <h3>Today's Forecast</h3>
+        </header>
+        <section>
+            
+           
+        
+            
+        </section>
+        
+        <section>
+        
+            
+        </section>
+        
+
+    
+    </main>
+    <footer>
+        <ul>
+            <li>&copy;2016</li>
+            <li> Alan Alberro </li>
+            <li>Last Updated: 10/13/2016 </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
