@@ -8,7 +8,7 @@ nav, li, nav-ul{
     color: midnightblue;
 }
 #nav-li{
-    display:flex;
+    display:inline-flex;
     flex-direction: row;
 }
 
