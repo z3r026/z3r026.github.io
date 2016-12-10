@@ -1,5 +1,5 @@
 
-nav, li, nav-ul{
+nav, nav-ul{
     list-style: none;
     font-size: 110%;
     margin: 0;
@@ -16,7 +16,7 @@ nav, li, nav-ul{
 #terms-li{
     display:flex;
     flex-direction:column;
-    list-style:circle;
+    list-style:normal;
 }
 
 
