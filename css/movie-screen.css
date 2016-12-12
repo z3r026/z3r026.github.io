@@ -56,4 +56,24 @@ img {
     margin: auto;
     width: 40%;
 }
+
+/* Media Queries*/
+
+/* Tablet */
+@media screen and (min-width:320px) {
+    #nav-li {
+        display: flex;
+        text-align: center;
+    }
+}
+
+/* Desktop/Laptop */
+@media screen and (min-width:1024px) {
+    #weather-update {
+        display: block;
+        position: relative;
+        left: 500px;
+        bottom: 390px
+    }
+
     
