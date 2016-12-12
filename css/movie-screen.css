@@ -60,9 +60,9 @@ img {
 /* Media Queries*/
 
 /* Tablet */
+
 @media screen and (min-width:320px) {
     #nav-li {
-        display: flex;
         text-align: center;
     }
 }
