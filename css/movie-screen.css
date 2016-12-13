@@ -1,7 +1,4 @@
-#wrapper {
-    display: flex;
-    flex-direction: column;
-}
+
 nav, nav-ul{
     list-style: none;
     font-size: 110%;
@@ -19,13 +16,9 @@ nav, nav-ul{
 #terms-li{
     display:flex;
     flex-direction:column;
-    list-style:normal;
-    
-    
+    list-style:normal;  
 }
-
-
-    
+  
     
 h3, h2{
     text-align: center;
@@ -36,7 +29,6 @@ h3, h2{
     
 #wrapper {
     display:flex;
-    flex-wrap:wrap;
     flex-direction: column;
     border: 1px #0000;
 }
