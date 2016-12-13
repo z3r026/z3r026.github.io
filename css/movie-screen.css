@@ -8,13 +8,13 @@ nav, nav-ul{
     padding: 0;
     color: midnightblue;
 }
-#nav-li, #footer-li{
+.nav-li, .footer-li{
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
 }
-#terms-li{
+.terms-li{
     display:flex;
     flex-direction:column;
     list-style:normal;  
